@@ -1,0 +1,19 @@
+/*seletores de ccs*/
+
+p {color: white;}
+
+p{color: white;} 
+
+li {font-family:cursive;color: rgb(20, 19, 19);}
+body {
+    background-image: url('imagem/download.jfif'); /* Caminho da sua imagem */
+    background-repeat: no-repeat;        /* Não repetir a imagem */
+    background-size:cover;              /* Ajusta a imagem para cobrir toda a tela */
+    background-position: top;         /* Centraliza a imagem */
+    
+  }
+body {background:linear-gradient(to right, red, black)}
+
+  a{background-color: black;}
+
+  a {color: white;}

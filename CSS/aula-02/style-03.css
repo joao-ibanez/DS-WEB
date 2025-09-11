@@ -1,0 +1,11 @@
+body {background: linear-gradient(to right, darkred, black);}
+  
+h1{border: 5px solid black; border-radius: 10px; background-color: white; text-shadow: 2px 2px 2px black;}
+
+h1{color: rgb(174, 130, 0);}
+
+h2{color: rgb(174, 130, 0);text-shadow: 2px 2px 2px black;}
+
+p{color: rgb(174, 130, 0); border: 5px solid black; border-radius: 10px; background-color: rgb(255, 255, 255);}
+
+a{color: rgb(174, 130, 0); text-shadow: 2px 2px 2px black;}

@@ -1,0 +1,17 @@
+body {background:linear-gradient(to bottom, rgba(255, 0, 0, 0.596), #b87c38)}
+
+p{font-size:large; line-height: 1.6rem;}
+
+.sim{margin: 0 auto;
+display: block;}
+
+img{margin: 0 auto;
+display: block;}
+
+.oi{color: rgb 174, 130, 0;}
+
+a {color: rgb 174 , 130, 0 }
+
+div{border: 5px solid black; border-radius: 10px; background-color: white;}
+
+img{border: 5px solid black; border-radius: 10px;}
