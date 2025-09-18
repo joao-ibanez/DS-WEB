@@ -1,0 +1,16 @@
+.ronaldo{width: 150px;
+        height: 150px;
+        margin: 10px auto;
+        padding: 15px ;
+        background-color: blueviolet;
+        display: inline-block;}
+
+.roberto{width: 150px;
+        height: 150px;
+        margin: 10px auto;
+        padding: 15px ;
+        background-color: rgb(226, 43, 43);
+        display: inline-block;}
+
+.sim{margin: 0 auto;
+    text-align: center;}

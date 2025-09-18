@@ -1,0 +1,17 @@
+.sim{width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    padding: 15px ;
+    border: 5px solid black;
+    background-color: rgb(132, 0, 255);
+    display: block}
+
+
+.nao{width: 400px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 20px ;
+    display: block;}
+
+
+.oi{text-align:center;}
