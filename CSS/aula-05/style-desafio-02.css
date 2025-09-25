@@ -1,0 +1,53 @@
+
+.letra {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(167, 7, 7);
+    position: sticky;
+    left: 0;
+    display: inline-block;
+    top: 10px;
+    text-align: center;
+}
+
+
+.letra2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 195, 255);
+    position: sticky;
+    left: 100px;
+    display: inline-block;
+    top: 10px;
+    text-align: center;
+}
+
+
+.letra3 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(167, 7, 7);
+    position: sticky;
+    left: 200px;
+    display: inline-block;
+    top: 10px;
+    text-align: center;
+}
+
+
+.letra4 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 195, 255);
+    position: sticky;
+    left: 300px;
+    display: inline-block;
+    top: 10px;
+    text-align: center;
+}
+
+
+.jv{height: 1000px;
+    width: 400px;}
+
+.espaço{padding: 10px;}

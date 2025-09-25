@@ -1,0 +1,43 @@
+
+.menubusca{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+
+.divzona {
+    display: flex;
+    margin-top: 70px; 
+    gap: 20px;
+    padding: 10px;
+}
+
+
+.menulateral {
+    width: 300px;
+    background-color: aquamarine;
+    position: sticky;
+    top: 40px; 
+    padding: 10px;
+    height: max-content;
+}
+
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+}
+
+
+p {
+    color: black;
+    line-height: 1.5;
+}
