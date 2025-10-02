@@ -1,0 +1,32 @@
+.menu{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #646464;
+    color: darkred;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.links {
+        display:inline-block;
+        padding: 0 6em;
+}
+
+a{color: rgb(0, 0, 0);}
+
+
+img{height: 1000px;
+    width: 100%;
+    border: solid  10px  darkred;
+}
+
+
+h1{text-align: center; }
+
+h2{text-align: center;}
+
+p{text-align: center;}
