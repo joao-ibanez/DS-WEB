@@ -12,18 +12,20 @@ function Cadastrar() {
     let novotelefone = document.getElementById('telefone').value;
     let novoturma = document.getElementById('turma').value;
 
-    novoaluno.textContent = contador + ' - ' + novonome + ' - ' + novoemail + ' - ' + novoRA + ' - ' + novotelefone + ' - ' + novoturma;
+    novoaluno.innerHTML = contador + '<br>' + novonome + ' <br> ' + novoemail + ' <br> ' + novoRA + ' <br> ' + novotelefone + ' <br> ' + novoturma + '<br>';
 
     novoaluno.setAttribute('id', contador);
 
     let botaoremover = document.createElement('button');
-    botaoremover.textContent = 'Remover';
+    botaoremover.innerHTML = 'Remover';
     botaoremover.setAttribute('onclick', `remover(${contador})`);
 
     novoaluno.appendChild(botaoremover);
     document.getElementById('listaalunos').appendChild(novoaluno);
 
 }
+
+
 
 function remover (itemlista) {
 
