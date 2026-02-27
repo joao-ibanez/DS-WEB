@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 3000px;
+    background: linear-gradient(to bottom, #111, #333);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    position: fixed;
+    width: 100%;
+    top: 20px;
+}
+
+.bola {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    position: fixed;
+    transition:
+        transform 0.2s ease,
+        background 0.3s ease,
+        width 0.2s,
+        height 0.2s;
+}
+
+
+.rastro{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transition: background 0.3s;
+}
+
+body {
+    cursor: none;
+}
+
+
+#bola {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background: none;
+    background-image: url("peixe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 9999;
+}
